@@ -1,6 +1,7 @@
 extern crate libc;
 
 use dim4::Dim4;
+use backend::set_backend;
 use defines::{AfError, Aftype, Backend};
 use self::libc::{uint8_t, c_void, c_int, c_uint, c_longlong};
 
